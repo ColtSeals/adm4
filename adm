@@ -41,6 +41,10 @@ if [ "$1" = "" ]; then
 clear
 sso=$(cat -n /etc/issue |grep 1 |cut -d' ' -f6,7,8 |sed 's/1//' |sed 's/      //')
 echo -e "\033[1;31mSEU SO $sso"
+echo -e "\033[1;31m•••••> \033[01;37mScript Edited ••ColtSeals TecnologY•• \033[0m"
+echo -e "\033[1;32m•••••> A Internet aproxima quem está longe e afasta quem está perto!"
+echo -e "\033[1;32m•••••> TELEGRAM GRUPO: @NerdologiaVps"
+echo -e "\033[1;32m•••••> TELEGRAM CANAL: @VpsNerdologia"
 echo -e "\033[36;37m PAINEL DE GERENCIAMENTO DO MenuVPS\033[0m"
 echo -e "\033[0;35m------------------------------------------------------------\033[0m"
 echo -e "\033[1;36m[\033[1;31m1\033[1;36m] - GERÊNCIAR USUÁRIOS\033[01;37m"
