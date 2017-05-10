@@ -41,7 +41,7 @@ if [ "$1" = "" ]; then
 clear
 sso=$(cat -n /etc/issue |grep 1 |cut -d' ' -f6,7,8 |sed 's/1//' |sed 's/      //')
 echo -e "\033[1;31mSEU SO $sso"
-echo -e "\033[36;37m PAINEL DE GERENCIAMENTO DA VPS\033[0m"
+echo -e "\033[36;37m PAINEL DE GERENCIAMENTO DO MenuVPS\033[0m"
 echo -e "\033[0;35m------------------------------------------------------------\033[0m"
 echo -e "\033[1;36m[\033[1;31m1\033[1;36m] - GERÊNCIAR USUÁRIOS\033[01;37m"
 echo -e "\033[1;36m[\033[1;31m2\033[1;36m] - BACKUP(\033[01;37m""\033[01;31mFTP\033[01;37m""\033[01;36m)\033[01;37m"
@@ -49,7 +49,7 @@ echo -e "\033[1;36m[\033[1;31m3\033[1;36m] - ACESSOS EM TEMPO REAL\033[01;37m"
 echo -e "\033[1;36m[\033[1;31m4\033[1;36m] - LIMITAR CONEXÕES (\033[01;37m""\033[01;31mKILL MULTI-LOGIN\033[01;37m""\033[01;36m)\033[01;37m"
 echo -e "\033[1;36m[\033[1;31m5\033[1;36m] - MEDIR LINK DE INTERNET\033[01;37m"
 echo -e "\033[1;36m[\033[1;31m6\033[1;36m] - GERÊNCIAR SISTEMA\033[01;37m"
-echo -e "\033[1;36m[\033[1;31m7\033[1;36m] - \033[1;33mMENU ADM2\033[01;37m"
+echo -e "\033[1;36m[\033[1;31m7\033[1;36m] - \033[1;33mMenuVPS 2\033[01;37m"
 echo -e "\033[1;36m[\033[1;31m8\033[1;36m] - MENU OPENVPN\033[01;37m"
 echo -e "\033[1;36m[\033[1;31m9\033[1;36m] - MUDAR O COMANDO ADM\033[0m"
 echo -e "\033[0;35m------------------------------------------------------------\033[0m"
